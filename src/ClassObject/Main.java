@@ -18,4 +18,15 @@ public class Main {
         Son.setName("Son ngu");
         System.out.println("ten la " + Son.getName());
     }
+
+    @Override
+    void insertPhone String(String name, String phone) {
+        for(PhoneNumber p : phoneList){
+            if(p.getPhone().contains(phone)){
+                return;
+            }
+            p.getPhone().add(phone);
+            return;
+        }
+    }
 }
